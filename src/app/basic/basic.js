@@ -33,7 +33,7 @@
                 url : url,
                 method : "GET"
             }).then(function(successResponse) {
-                vm.sum = successResponse.data;
+                vm.difference = successResponse.data;
             }, function(failureResponse) {
                 return $q.reject(failureResponse.statusText);
             });
@@ -47,7 +47,7 @@
                 url : url,
                 method : "GET"
             }).then(function(successResponse) {
-                vm.sum = successResponse.data;
+                vm.product = successResponse.data;
             }, function(failureResponse) {
                 return $q.reject(failureResponse.statusText);
             });
@@ -61,7 +61,7 @@
                 url : url,
                 method : "GET"
             }).then(function(successResponse) {
-                vm.sum = successResponse.data;
+                vm.quotient = successResponse.data;
             }, function(failureResponse) {
                 return $q.reject(failureResponse.statusText);
             });

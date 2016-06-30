@@ -1,48 +1,58 @@
 <div class="container">
 <h1 class="text-center">Basic Math Functions</h1>
-<fieldset>
-    <legend>Addition</legend>
-    <input type="text" ng-model="vm.addNumberOne">
-    <br>
-    <input type="text" ng-model="vm.addNumberTwo">
-    <br>
-    <input type="submit" ng-click="vm.addNumbers()">
-    <br>
-    <p>The total is: {{vm.sum}}</p>
-</fieldset>
+<div class="row">
+    <div class="col-md-3">
+        <fieldset>
+            <legend>Addition</legend>
+            <input type="text" ng-model="vm.addNumberOne">
+            <br>
+            <input type="text" ng-model="vm.addNumberTwo">
+            <br>
+            <input type="submit" ng-click="vm.addNumbers()">
+            <br>
+            <p>The total is: {{vm.sum}}</p>
+        </fieldset>
+    </div>
 
-<fieldset>
-    <legend>Subtraction</legend>
-    <input type="text" ng-model="vm.subtractNumberOne">
-    <br>
-    <input type="text" ng-model="vm.subtractNumberTwo">
-    <br>
-    <input type="submit" ng-click="vm.subtractNumbers()">
-    <br>
-    <p>The total is: {{vm.sum}}</p>
-</fieldset>
+    <div class="col-md-3">
+        <fieldset>
+            <legend>Subtraction</legend>
+            <input type="text" ng-model="vm.subtractNumberOne">
+            <br>
+            <input type="text" ng-model="vm.subtractNumberTwo">
+            <br>
+            <input type="submit" ng-click="vm.subtractNumbers()">
+            <br>
+            <p>The total is: {{vm.difference}}</p>
+        </fieldset>
+    </div>
 
-<fieldset>
-    <legend>Multiplication</legend>
-    <input type="text" ng-model="vm.multiplyNumberOne">
-    <br>
-    <input type="text" ng-model="vm.multiplyNumberTwo">
-    <br>
-    <input type="submit" ng-click="vm.multiplyNumbers()">
-    <br>
-    <p>The total is: {{vm.sum}}</p>
-</fieldset>
+    <div class="col-md-3">
+        <fieldset>
+            <legend>Multiplication</legend>
+            <input type="text" ng-model="vm.multiplyNumberOne">
+            <br>
+            <input type="text" ng-model="vm.multiplyNumberTwo">
+            <br>
+            <input type="submit" ng-click="vm.multiplyNumbers()">
+            <br>
+            <p>The total is: {{vm.product}}</p>
+        </fieldset>
+    </div>
 
-<fieldset>
-    <legend>Division</legend>
-    <input type="text" ng-model="vm.divideNumberOne">
-    <br>
-    <input type="text" ng-model="vm.divideNumberTwo">
-    <br>
-    <input type="submit" ng-click="vm.divideNumbers()">
-    <br>
-    <p>The total is: {{vm.sum}}</p>
-</fieldset>
+    <div class="col-md-3">
+        <fieldset>
+            <legend>Division</legend>
+            <input type="text" ng-model="vm.divideNumberOne">
+            <br>
+            <input type="text" ng-model="vm.divideNumberTwo">
+            <br>
+            <input type="submit" ng-click="vm.divideNumbers()">
+            <br>
+            <p>The total is: {{vm.quotient}}</p>
+        </fieldset>
+    </div>
 
+</div>
 
 </div>
